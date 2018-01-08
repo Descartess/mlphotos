@@ -10,10 +10,10 @@
 		13C3E39E1FFE160A00712D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E39D1FFE160A00712D53 /* AppDelegate.swift */; };
 		13C3E3A01FFE160A00712D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E39F1FFE160A00712D53 /* ViewController.swift */; };
 		13C3E3A31FFE160A00712D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C3E3A11FFE160A00712D53 /* Main.storyboard */; };
-		13C3E3A51FFE160A00712D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C3E3A41FFE160A00712D53 /* Assets.xcassets */; };
 		13C3E3A81FFE160A00712D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C3E3A61FFE160A00712D53 /* LaunchScreen.storyboard */; };
 		13C3E3B31FFE160A00712D53 /* MLPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3B21FFE160A00712D53 /* MLPhotosTests.swift */; };
 		13C3E3BE1FFE160A00712D53 /* MLPhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3BD1FFE160A00712D53 /* MLPhotosUITests.swift */; };
+		13C3E3DE200370AF00712D53 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3DD200370AE00712D53 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		13C3E39D1FFE160A00712D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C3E39F1FFE160A00712D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13C3E3A21FFE160A00712D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13C3E3A41FFE160A00712D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13C3E3A71FFE160A00712D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13C3E3A91FFE160A00712D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13C3E3AE1FFE160A00712D53 /* MLPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		13C3E3B91FFE160A00712D53 /* MLPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3E3BD1FFE160A00712D53 /* MLPhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLPhotosUITests.swift; sourceTree = "<group>"; };
 		13C3E3BF1FFE160A00712D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C3E3DD200370AE00712D53 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../../../Downloads/MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		13C3E39C1FFE160A00712D53 /* MLPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				13C3E3DD200370AE00712D53 /* MobileNet.mlmodel */,
 				13C3E39D1FFE160A00712D53 /* AppDelegate.swift */,
 				13C3E39F1FFE160A00712D53 /* ViewController.swift */,
 				13C3E3A11FFE160A00712D53 /* Main.storyboard */,
-				13C3E3A41FFE160A00712D53 /* Assets.xcassets */,
 				13C3E3A61FFE160A00712D53 /* LaunchScreen.storyboard */,
 				13C3E3A91FFE160A00712D53 /* Info.plist */,
 			);
@@ -233,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3E3A81FFE160A00712D53 /* LaunchScreen.storyboard in Resources */,
-				13C3E3A51FFE160A00712D53 /* Assets.xcassets in Resources */,
 				13C3E3A31FFE160A00712D53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3E3A01FFE160A00712D53 /* ViewController.swift in Sources */,
+				13C3E3DE200370AF00712D53 /* MobileNet.mlmodel in Sources */,
 				13C3E39E1FFE160A00712D53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
