@@ -63,6 +63,7 @@ class ViewController: UIViewController {
         }
         var bestPrediction = ""
         var bestConfidence: VNConfidence = 0
+        
         for classification in results {
             if classification.confidence > bestConfidence {
                 bestConfidence = classification.confidence
