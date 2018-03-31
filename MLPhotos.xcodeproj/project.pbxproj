@@ -13,7 +13,7 @@
 		13C3E3A81FFE160A00712D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C3E3A61FFE160A00712D53 /* LaunchScreen.storyboard */; };
 		13C3E3B31FFE160A00712D53 /* MLPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3B21FFE160A00712D53 /* MLPhotosTests.swift */; };
 		13C3E3BE1FFE160A00712D53 /* MLPhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3BD1FFE160A00712D53 /* MLPhotosUITests.swift */; };
-		13C3E3DE200370AF00712D53 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3DD200370AE00712D53 /* MobileNet.mlmodel */; };
+		13D20D5B2007A56400DED51A /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13C3E3DD200370AE00712D53 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,8 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3E3A01FFE160A00712D53 /* ViewController.swift in Sources */,
-				13C3E3DE200370AF00712D53 /* MobileNet.mlmodel in Sources */,
 				13C3E39E1FFE160A00712D53 /* AppDelegate.swift in Sources */,
+				13D20D5B2007A56400DED51A /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +430,7 @@
 				DEVELOPMENT_TEAM = ZAU58TE88U;
 				INFOPLIST_FILE = MLPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MLPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyondo.mlphotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +445,7 @@
 				DEVELOPMENT_TEAM = ZAU58TE88U;
 				INFOPLIST_FILE = MLPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MLPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyondo.mlphotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
